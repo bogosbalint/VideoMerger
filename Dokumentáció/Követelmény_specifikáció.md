@@ -9,3 +9,7 @@ A fejlesztés célja egy vizuálisan részletes, átlátható alkalmazás kész�
 
 ## Kívánt rendszer
 A megrendelő vágyik egy programra, aminek célja több videó állományt összeilleszteni. A videó fájlokat a felhasználó tetszés szerint kiválaszthatja és megadhatja a kezdő és végpontjaikat, valamint, hogy melyik hangcsatorna legyen aktív. Miután minden kész van, a felhasználónak lehetősége van letölteni az összeállított állományt.
+
+## Elvárt működés
+A felhasználó előtt a program elindítása után négy kattintható felület jelenik meg, amelyek segítségével ki tudja választani, hogy a képernyő melyik részén milyen videó jelenjen meg. Ezek alatt pedig egy-egy csúszka az összes videóhoz, amin a felhasználó a kezdő és végpontokat tudja beállítani. Minden csúszka mellett egy-egy checkbox, amikkel meg lehet adni, hogy melyik videó hangja hallatszódjon. A képernyőn található még egy exportálás gomb is, amivel az összeszerkesztett videó állományt lehet letölteni.
+
