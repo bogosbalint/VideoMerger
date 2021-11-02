@@ -15,3 +15,11 @@ A felhasználó előtt a program elindítása után négy kattintható felület 
 
 ## Funkcionális követelmények
 A felhasználónak legyen lehetősége videókat kiválasztani valamint a kezdő és végpontokat beállítani az összesnél és méretet beállítani, valamint aktív és passzív hangsávokat tudjon megadni. Legyen még lehetőség a szerkesztett videó állomány letöltésére.
+
+## Szükséges funkciók listája
+| Modul | ID |Név | Leírás |
+|---|---|---|---|
+| Frontend| F1 | Videók hozzáadása| A felhasználó által kiválasztott videók hozzáadása|
+| Frontend| F2 | Videók kezdetének és végének beállítása| A felhasználó által kiválasztott videók kezdő- és végpontjának beállítása |
+| Frontend| F3 | Aktív és passzív hangsávok beállítása| A felhasználó által kiválasztott videók hangsávjának a beállítása checkboxokon keresztül | 
+| Backend| F4 | Létrehozott videó állomány letöltése| Az összeolvasztott videó fájlt le lehessen tölteni |
