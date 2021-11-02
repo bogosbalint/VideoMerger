@@ -13,3 +13,5 @@ A megrendelő vágyik egy programra, aminek célja több videó állományt öss
 ## Elvárt működés
 A felhasználó előtt a program elindítása után négy kattintható felület jelenik meg, amelyek segítségével ki tudja választani, hogy a képernyő melyik részén milyen videó jelenjen meg. Ezek alatt pedig egy-egy csúszka az összes videóhoz, amin a felhasználó a kezdő és végpontokat tudja beállítani. Minden csúszka mellett egy-egy checkbox, amikkel meg lehet adni, hogy melyik videó hangja hallatszódjon. A képernyőn található még egy exportálás gomb is, amivel az összeszerkesztett videó állományt lehet letölteni.
 
+## Funkcionális követelmények
+A felhasználónak legyen lehetősége videókat kiválasztani valamint a kezdő és végpontokat beállítani az összesnél és méretet beállítani, valamint aktív és passzív hangsávokat tudjon megadni. Legyen még lehetőség a szerkesztett videó állomány letöltésére.
