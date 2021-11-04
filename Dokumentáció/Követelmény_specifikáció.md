@@ -31,3 +31,8 @@ hatályon kívül helyezéséről (általános adatvédelmi rendelet
 
 
 - 2011.évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról
+
+- 1.§2 E törvény célja a hatálya alá tartozó tárgykörökben az adatok kezelésére vonatkozó alapvető szabályok 
+meghatározása annak érdekében, hogy a természetes személyek magánszféráját az adatkezelők tiszteletben tartsák,
+valamint a közügyek átláthatósága a közérdekű és a közérdekből nyilvános adatok megismeréséhez és terjesztéséhez
+fűződő jog érvényesítésével megvalósuljon.
