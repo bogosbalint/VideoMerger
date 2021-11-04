@@ -23,3 +23,5 @@ A felhasználónak legyen lehetősége videókat kiválasztani valamint a kezdő
 | Frontend| F2 | Videók kezdetének és végének beállítása| A felhasználó által kiválasztott videók kezdő- és végpontjának beállítása |
 | Frontend| F3 | Aktív és passzív hangsávok beállítása| A felhasználó által kiválasztott videók hangsávjának a beállítása checkboxokon keresztül | 
 | Backend| F4 | Létrehozott videó állomány letöltése| Az összeolvasztott videó fájlt le lehessen tölteni |
+
+## Rendszerre vonatkozó törvények, szabványok, ajánlások
