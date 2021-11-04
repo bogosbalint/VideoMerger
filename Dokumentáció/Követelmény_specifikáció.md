@@ -25,3 +25,9 @@ A felhasználónak legyen lehetősége videókat kiválasztani valamint a kezdő
 | Backend| F4 | Létrehozott videó állomány letöltése| Az összeolvasztott videó fájlt le lehessen tölteni |
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlások
+- AZ EURÓPAI PARLAMENT ÉS A TANÁCS (EU) 2016/679 RENDELETE (2016. április 27.) a természetes személyeknek a személyes
+adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK irányelv 
+hatályon kívül helyezéséről (általános adatvédelmi rendelet
+
+
+- 2011.évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról
