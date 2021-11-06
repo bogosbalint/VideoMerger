@@ -16,6 +16,9 @@ A felhasználó előtt a program elindítása után négy kattintható felület 
 ## Funkcionális követelmények
 A felhasználónak legyen lehetősége videókat kiválasztani valamint a kezdő és végpontokat beállítani az összesnél és méretet beállítani, valamint aktív és passzív hangsávokat tudjon megadni. Legyen még lehetőség a szerkesztett videó állomány letöltésére.
 
+## A rendszer futása
+Asztalról megnyitható program, futtatásához mindössze egy számítógépre van szüksége a felhasználónak. Platformfüggetlen(windows/ linux/ mac).
+
 ## Szükséges funkciók listája
 | Modul | ID |Név | Leírás |
 |---|---|---|---|
