@@ -7,6 +7,15 @@ Fejlesztésünk célja egy olyan asztalról indítható program készítése ame
 A megrendelőnek szüksége van egy átlátható, könnyen kezelhető és korszerű szoftverre, ami (a jelenlegi biztonsági kamerák) akármilyen kamera által készített különböző nézetű felvételeket képes egy nézetben megjeleníteni. 
 Nehezebb nyomon követni a felvételeket ha külön-külön vannak, valamint ha arra lenne szükség, összehasonlítani is nehezebb
 
+## Vágyálom rendszer
+Legyen grafikus felülete
+Lehetőség videók feltöltésére
+Videók kezdő- és végpontjának beállítása
+Aktív hangcsatornák kiválasztása
+Statikus vízjel megléte
+Állomány letöltése
+
+
 
 ## Képernyőterv
 ![Képernyőterv](https://github.com/csgery/VeryBigPython_Video/blob/2-func-spec/Dokument%C3%A1ci%C3%B3/kepernyoterv.jpg)
