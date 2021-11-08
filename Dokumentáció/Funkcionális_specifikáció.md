@@ -27,7 +27,7 @@ Az emberek számára szeretnénk megkönnyíteni a videók egy képernyőre hely
 ## Követelménylista
 -	Könnyen használható felület
 -	Videó állományok kiválasztása
-- Videó állományok kezdő- és végpontjának a beállítása
+-	Videó állományok kezdő- és végpontjának a beállítása
 -   Aktív hangcsatornák kiválasztása
 -	Létrehozott videó állomány exportálása
 
