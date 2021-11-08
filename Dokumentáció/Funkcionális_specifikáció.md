@@ -29,6 +29,7 @@ Az emberek számára szeretnénk megkönnyíteni a videók egy képernyőre hely
 -	Videó állományok kiválasztása
 - Videó állományok kezdő- és végpontjának a beállítása
 -   Aktív hangcsatornák kiválasztása
+-	Létrehozott videó állomány exportálása
 
 ## Képernyőterv
 ![Képernyőterv](https://github.com/csgery/VeryBigPython_Video/blob/2-func-spec/Dokument%C3%A1ci%C3%B3/kepernyoterv.jpg)
