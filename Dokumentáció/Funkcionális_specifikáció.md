@@ -15,6 +15,8 @@ Aktív hangcsatornák kiválasztása
 Statikus vízjel megléte
 Állomány letöltése
 
+## Elvárások
+Egy videó szerkesztő program, ahol egy képernyőre tudjuk pakolni az összevágni kívánt videó fájlokat és egyesével be tudjuk állítani a kezdő- és végpontjaikat, valamint az aktív hangcsatornák kiválasztására is van lehetőség. A kívánt eredmény elérése után a videó fájl letölthető legyen.
 
 
 ## Képernyőterv
