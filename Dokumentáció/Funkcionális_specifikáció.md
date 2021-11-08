@@ -27,6 +27,8 @@ Az emberek számára szeretnénk megkönnyíteni a videók egy képernyőre hely
 ## Követelménylista
 -	Könnyen használható felület
 -	Videó állományok kiválasztása
+- Videó állományok kezdő- és végpontjának a beállítása
+-   Aktív hangcsatornák kiválasztása
 
 ## Képernyőterv
 ![Képernyőterv](https://github.com/csgery/VeryBigPython_Video/blob/2-func-spec/Dokument%C3%A1ci%C3%B3/kepernyoterv.jpg)
