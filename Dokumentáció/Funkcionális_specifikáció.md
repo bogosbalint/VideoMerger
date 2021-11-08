@@ -18,6 +18,9 @@ Statikus vízjel megléte
 ## Elvárások
 Egy videó szerkesztő program, ahol egy képernyőre tudjuk pakolni az összevágni kívánt videó fájlokat és egyesével be tudjuk állítani a kezdő- és végpontjaikat, valamint az aktív hangcsatornák kiválasztására is van lehetőség. A kívánt eredmény elérése után a videó fájl letölthető legyen.
 
+## A rendszer célja és nem célja
+A rendszer célja egy egyszerű könnyen átlátható és megtanulható program írása ami több videó állományt konvertál egyé. A program megkönnyíti a videók egy képernyőre helyezését, így nem kell mindenféle nehéz és bonyolult videóvágó szoftverrel bajlódni.
+
 
 ## Képernyőterv
 ![Képernyőterv](https://github.com/csgery/VeryBigPython_Video/blob/2-func-spec/Dokument%C3%A1ci%C3%B3/kepernyoterv.jpg)
