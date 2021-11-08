@@ -24,5 +24,9 @@ A rendszer célja egy egyszerű könnyen átlátható és megtanulható program 
 ## Igényelt üzleti folyamatok modellje
 Az emberek számára szeretnénk megkönnyíteni a videók egy képernyőre helyezését, hogy ne kelljen napokat tölteni a videóvágó szoftverek betanulásával, hanem egyszerűen véghez lehessen vinni a folyamatot.
 
+## Követelménylista
+-	Könnyen használható felület
+-	Videó állományok kiválasztása
+
 ## Képernyőterv
 ![Képernyőterv](https://github.com/csgery/VeryBigPython_Video/blob/2-func-spec/Dokument%C3%A1ci%C3%B3/kepernyoterv.jpg)
