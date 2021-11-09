@@ -24,4 +24,12 @@ Backend: Csépányi Gergely, Csomós Patrik, Zettisch Márk, Bögös Bálint
 ## Üzleti folyamatok modellje
 - Üzleti szereplők:
     - Felhasználó
+    
+- Üzleti folyamatok:
+    - videó fájlok feltöltése
+    - videók méretének és pozíciójának változtatása
+    - aktív hangsávok kiválasztása
+    - videók kezdeti és végpontjainak a megváltoztatása
+    - végleges videó letöltése
+
 
