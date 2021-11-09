@@ -16,3 +16,12 @@
 - felelősségek: 
     - scrum master: A Scrum mester felügyeli és megkönnyíti a folyamat fenntartását, segíti a csapatot, ha problémába ütközik, illetve felügyeli, hogy mindenki betartja-e a Scrum alapvető szabályait.
     - junior fejlesztő: A projekt elkészítése
+
+**Projekt munkások és felelősségeik** 
+Frontend: Csépányi Gergely, Csomós Patrik, Zettisch Márk, Bögös Bálint
+Backend: Csépányi Gergely, Csomós Patrik, Zettisch Márk, Bögös Bálint
+
+## Üzleti folyamatok modellje
+- Üzleti szereplők:
+    - Felhasználó
+
