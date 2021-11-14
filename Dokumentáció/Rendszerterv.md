@@ -52,4 +52,4 @@ Backend: Csépányi Gergely, Csomós Patrik, Zettisch Márk, Bögös Bálint
 ## Fizikai környezet
 - Eszköz: Asztali gép/Laptop 
 - Operációs rendszer: Független
-
+- Konfiguráció: Nem specifikus
