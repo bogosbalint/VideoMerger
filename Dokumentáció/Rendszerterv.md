@@ -33,3 +33,10 @@ Backend: Csépányi Gergely, Csomós Patrik, Zettisch Márk, Bögös Bálint
     - végleges videó letöltése
 
 ## Követelmények
+- Funkcionális
+- Asztalról való indítás
+- Nem funkcionális
+- Gyors működés
+- Egyszerű, egyértelmű kezelés
+- Törvényi előírások, szabályok
+- GDPR követelményeinek való megfelelés
