@@ -42,3 +42,10 @@ Backend: Csépányi Gergely, Csomós Patrik, Zettisch Márk, Bögös Bálint
 - GDPR követelményeinek való megfelelés
 
 ## Funkcionális terv
+- Rendszerszereplők
+	- Felhasználó
+
+- Rendszerhasználati esetek futtatása
+	- Felhasználó
+		- videó fájlok feltöltése és módosítása
+
