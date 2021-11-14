@@ -32,4 +32,4 @@ Backend: Csépányi Gergely, Csomós Patrik, Zettisch Márk, Bögös Bálint
     - videók kezdeti és végpontjainak a megváltoztatása
     - végleges videó letöltése
 
-
+## Követelmények
