@@ -40,3 +40,5 @@ Backend: Csépányi Gergely, Csomós Patrik, Zettisch Márk, Bögös Bálint
 - Egyszerű, egyértelmű kezelés
 - Törvényi előírások, szabályok
 - GDPR követelményeinek való megfelelés
+
+## Funkcionális terv
