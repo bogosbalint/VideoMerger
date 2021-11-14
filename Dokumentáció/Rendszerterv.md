@@ -49,3 +49,7 @@ Backend: Csépányi Gergely, Csomós Patrik, Zettisch Márk, Bögös Bálint
 	- Felhasználó
 		- videó fájlok feltöltése és módosítása
 
+## Fizikai környezet
+- Eszköz: Asztali gép/Laptop 
+- Operációs rendszer: Független
+
