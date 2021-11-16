@@ -62,5 +62,5 @@ Az alkalmazást Pycharm-ban és/vagy Visual Studio Code-ban készítjük el
 
 ## Tesztterv
 Frontend: A frontend komponenseket real time-ban teszteljük
-
+A user teszteket a fejlesztés végén végezzük el a funkciók kipróbálásával és dokumentálásával 
 
