@@ -60,3 +60,7 @@ A program működése során a felhasználó több féle szerepkörben tud tevé
 ## Architekturális terv
 Az alkalmazást Pycharm-ban és/vagy Visual Studio Code-ban készítjük el
 
+## Tesztterv
+Frontend: A frontend komponenseket real time-ban teszteljük
+
+
