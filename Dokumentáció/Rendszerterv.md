@@ -57,3 +57,6 @@ Backend: Csépányi Gergely, Csomós Patrik, Zettisch Márk, Bögös Bálint
 ## Absztrakt domain modell
 A program működése során a felhasználó több féle szerepkörben tud tevékenykedni. A felhasználó képes videót hozzáadni, kezdő/végpontját beállítani, aktív hangsávot beállítani és letölteni a végső állományt
 
+## Architekturális terv
+Az alkalmazást Pycharm-ban és/vagy Visual Studio Code-ban készítjük el
+
