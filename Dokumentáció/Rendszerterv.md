@@ -34,12 +34,12 @@ Backend: Csépányi Gergely, Csomós Patrik, Zettisch Márk, Bögös Bálint
 
 ## Követelmények
 - Funkcionális
-- Asztalról való indítás
+	- Asztalról való indítás
 - Nem funkcionális
-- Gyors működés
-- Egyszerű, egyértelmű kezelés
+	- Gyors működés
+	- Egyszerű, egyértelmű kezelés
 - Törvényi előírások, szabályok
-- GDPR követelményeinek való megfelelés
+	- GDPR követelményeinek való megfelelés
 
 ## Funkcionális terv
 - Rendszerszereplők
@@ -53,3 +53,7 @@ Backend: Csépányi Gergely, Csomós Patrik, Zettisch Márk, Bögös Bálint
 - Eszköz: Asztali gép/Laptop 
 - Operációs rendszer: Független
 - Konfiguráció: Nem specifikus
+
+## Absztrakt domain modell
+A program működése során a felhasználó több féle szerepkörben tud tevékenykedni. A felhasználó képes videót hozzáadni, kezdő/végpontját beállítani, aktív hangsávot beállítani és letölteni a végső állományt
+
