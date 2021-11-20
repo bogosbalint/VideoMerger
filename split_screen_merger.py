@@ -9,6 +9,7 @@ class GUI(tk.Frame):
         tk.Frame.__init__(self, self.master)
         self.gui = self.configure_gui()
         self.widgets = self.create_widgets()
+        self.imported_obj = []
 
     def configure_gui(self):
         self.master.geometry('600x600')
@@ -18,7 +19,10 @@ class GUI(tk.Frame):
         import_btn.grid(sticky="W", column=0, row=0, padx=10)
 
     def import_file(self):
-        print('import')
+        self.master.filename = tk.filedialog.askopenfilename(defaultextension=".mp4", filetypes=[("All files", "*.*")])
+        imported_video_label = tk.Label(self.master, justify=tk.LEFT, text=self.master.filename, font=(10))
+        imported_video_label.grid(sticky="W", column=0, row=len(self.imported_obj) + 5, padx=10)
+        self.imported_obj.append(self.master.filename)
 
 if __name__ == '__main__':
     root = tk.Tk()
