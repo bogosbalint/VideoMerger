@@ -43,6 +43,8 @@ class GUI(tk.Frame):
                 imported_video_label = tk.Label(self.master, justify=tk.LEFT, text=file_name, font=(10))
                 imported_video_label.grid(sticky="W", column=0, row=len(self.imported_obj) + 5, padx=10)
                 self.imported_obj.append(self.master.filename)
+                
+                self.count = self.count + 1
 
     def convert_videos(self):
         if self.count == 2:
@@ -59,7 +61,12 @@ class GUI(tk.Frame):
 
             self.merged = clips_array([[clip1, clip2], [clip3, clip4]])
 
-        self.merged.write_videofile('merged_video.mp4', codec='libx264')
+        name = self.output_text.get()
+        dir_name = tk.filedialog.askdirectory()
+
+        self.final_name = dir_name + "/" + name + ".mp4"
+
+        self.merged.write_videofile(self.final_name, codec='libx264')
 
 if __name__ == '__main__':
     root = tk.Tk()
