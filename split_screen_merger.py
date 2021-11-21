@@ -22,6 +22,12 @@ class GUI(tk.Frame):
         convert_btn = tk.Button(self.master, text="Convert", font=(12), command=self.convert_videos)
         convert_btn.grid(sticky="W", column=0, row=1, padx=10)
 
+        video_name_label = tk.Label(self.master, text="Merged video name:", font=12)
+        video_name_label.grid(sticky="W", column=0, row=2, padx=10)
+
+        self.output_text = tk.Entry(self.master, width=50)
+        self.output_text.grid(sticky="W", column=0, row=2, padx=220)
+
     def import_file(self):
         if self.count != 4:
             self.master.filename = tk.filedialog.askopenfilename(defaultextension=".mp4", filetypes=[("All files", "*.*")])
@@ -37,8 +43,6 @@ class GUI(tk.Frame):
                 imported_video_label = tk.Label(self.master, justify=tk.LEFT, text=file_name, font=(10))
                 imported_video_label.grid(sticky="W", column=0, row=len(self.imported_obj) + 5, padx=10)
                 self.imported_obj.append(self.master.filename)
-                
-                self.count = self.count + 1
 
     def convert_videos(self):
         if self.count == 2:
