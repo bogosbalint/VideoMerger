@@ -41,7 +41,21 @@ class GUI(tk.Frame):
                 self.count = self.count + 1
 
     def convert_videos(self):
-        print('convert')
+        if self.count == 2:
+            clip1 = VideoFileClip(self.imported_obj[0])
+            clip2 = VideoFileClip(self.imported_obj[1])
+
+            self.merged = clips_array([[clip1, clip2]])
+
+        elif self.count == 4:
+            clip1 = VideoFileClip(self.imported_obj[0])
+            clip2 = VideoFileClip(self.imported_obj[1])
+            clip3 = VideoFileClip(self.imported_obj[2])
+            clip4 = VideoFileClip(self.imported_obj[3])
+
+            self.merged = clips_array([[clip1, clip2], [clip3, clip4]])
+
+        self.merged.write_videofile('merged_video.mp4', codec='libx264')
 
 if __name__ == '__main__':
     root = tk.Tk()
