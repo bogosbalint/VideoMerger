@@ -74,6 +74,10 @@ class GUI(tk.Frame):
 
                 self.count = self.count + 1
 
+    def trim(self, file, start, end):
+        start, end = tuple(float(i) for i in start.split(',')), tuple(float(i) for i in end.split(','))
+        return file.subclip(start, end)
+
     def convert_videos(self):
         if self.count == 2:
             clip1 = VideoFileClip(self.imported_obj[0])
