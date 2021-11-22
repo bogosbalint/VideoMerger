@@ -83,7 +83,10 @@ class GUI(tk.Frame):
             clip1 = VideoFileClip(self.imported_obj[0])
             clip2 = VideoFileClip(self.imported_obj[1])
 
-            self.merged = clips_array([[clip1, clip2]])
+            clip1_s, clip1_e = self.clip1_start.get(), self.clip1_end.get()
+            clip2_s, clip2_e = self.clip2_start.get(), self.clip2_end.get()
+
+            self.merged = clips_array([[self.trim(clip1, clip1_s, clip1_e), self.trim(clip2, clip2_s, clip2_e)]])
 
         elif self.count == 4:
             clip1 = VideoFileClip(self.imported_obj[0])
@@ -91,7 +94,13 @@ class GUI(tk.Frame):
             clip3 = VideoFileClip(self.imported_obj[2])
             clip4 = VideoFileClip(self.imported_obj[3])
 
-            self.merged = clips_array([[clip1, clip2], [clip3, clip4]])
+            clip1_s, clip1_e = self.clip1_start.get(), self.clip1_end.get()
+            clip2_s, clip2_e = self.clip2_start.get(), self.clip2_end.get()
+            clip3_s, clip3_e = self.clip3_start.get(), self.clip3_end.get()
+            clip4_s, clip4_e = self.clip4_start.get(), self.clip4_end.get()
+
+            self.merged = clips_array([[self.trim(clip1, clip1_s, clip1_e), self.trim(clip2, clip2_s, clip2_e)],
+                                       [self.trim(clip3, clip3_s, clip3_e), self.trim(clip4, clip4_s, clip4_e)]])
 
         name = self.output_text.get()
         dir_name = tk.filedialog.askdirectory()
