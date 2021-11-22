@@ -43,7 +43,35 @@ class GUI(tk.Frame):
                 imported_video_label = tk.Label(self.master, justify=tk.LEFT, text=file_name, font=(10))
                 imported_video_label.grid(sticky="W", column=0, row=len(self.imported_obj) + 5, padx=10)
                 self.imported_obj.append(self.master.filename)
-                
+
+                if self.count == 0:
+                    self.clip1_start = tk.Entry(self.master, width=10)
+                    self.clip1_start.grid(sticky="W", column=0, row=len(self.imported_obj) + 4, padx=len(file_name) * 12 + 10)
+
+                    self.clip1_end = tk.Entry(self.master, width=10)
+                    self.clip1_end.grid(sticky="W", column=0, row=len(self.imported_obj) + 4, padx=len(file_name) * 12 + 90)
+
+                if self.count == 1:
+                    self.clip2_start = tk.Entry(self.master, width=10)
+                    self.clip2_start.grid(sticky="W", column=0, row=len(self.imported_obj) + 4, padx=len(file_name) * 12 + 10)
+
+                    self.clip2_end = tk.Entry(self.master, width=10)
+                    self.clip2_end.grid(sticky="W", column=0, row=len(self.imported_obj) + 4, padx=len(file_name) * 12 + 90)
+
+                if self.count == 2:
+                    self.clip3_start = tk.Entry(self.master, width=10)
+                    self.clip3_start.grid(sticky="W", column=0, row=len(self.imported_obj) + 4, padx=len(file_name) * 12 + 10)
+
+                    self.clip3_end = tk.Entry(self.master, width=10)
+                    self.clip3_end.grid(sticky="W", column=0, row=len(self.imported_obj) + 4, padx=len(file_name) * 12 + 90)
+
+                if self.count == 3:
+                    self.clip4_start = tk.Entry(self.master, width=10)
+                    self.clip4_start.grid(sticky="W", column=0, row=len(self.imported_obj) + 4, padx=len(file_name) * 12 + 10)
+
+                    self.clip4_end = tk.Entry(self.master, width=10)
+                    self.clip4_end.grid(sticky="W", column=0, row=len(self.imported_obj) + 4, padx=len(file_name) * 12 + 90)
+
                 self.count = self.count + 1
 
     def convert_videos(self):
