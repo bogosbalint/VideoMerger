@@ -12,3 +12,4 @@
 |T8| Csomós Patrik | Konvertálás | Konvertálás 4 importált állománnyal | Videó állomány sikeres letöltése | A videó állományt sikeresen letölti a program a kiválasztott helyre | Beta 1.1 |
 |T9| Csomós Patrik | Konvertálás | Letöltés fájlnév megadása nélkül | Ne engedje letölteni | Az exportálás sikeresen végbe megy, a fájlnak nem lesz neve, csak kiterjesztése| Beta 1.1 |
 |T10| Csomós Patrik | Konvertálás | Letöltés ha a fájlnévben megadjuk a kiterjesztést | Ne engedje letölteni | Az exportálás sikeresen végbe megy, a fájl megkapja a megadott nevet| Beta 1.1 |
+|T11| Zettisch Márk | Konvertálás | Letöltés ha a fájlnévben speciális karakterek vannak | Ne engedje letölteni | Hibát dob a pycharmban de a program tovább fut | Beta 1.1 |
