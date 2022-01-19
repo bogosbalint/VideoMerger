@@ -66,7 +66,12 @@ class GUI(tk.Frame):
                 imported_video_label.grid(sticky="W", column=0, row=len(self.imported_obj) + 7, padx=10)
                 self.imported_obj.append(self.master.filename)
 
-                # trim mezők
+                self.audio1 = tk.BooleanVar()
+                self.audio2 = tk.BooleanVar()
+                self.audio3 = tk.BooleanVar()
+                self.audio4 = tk.BooleanVar()
+
+                # trim mezők & checkboxok
                 if self.count == 0:
                     self.clip1_start = tk.Entry(self.master, width=10)
                     self.clip1_start.insert(0, '0,0')
@@ -75,6 +80,9 @@ class GUI(tk.Frame):
                     self.clip1_end = tk.Entry(self.master, width=10)
                     self.clip1_end.insert(0, '0,0')
                     self.clip1_end.grid(sticky="W", column=0, row=len(self.imported_obj) + 6, padx=len(file_name) * 12 + 90)
+
+                    self.checkbox1 = tk.Checkbutton(self.master, text='Inactive', variable=self.audio1, onvalue=False, offvalue=True)
+                    self.checkbox1.grid(sticky="W", column=0, row=len(self.imported_obj) + 6, padx=len(file_name) * 12 + 150)
 
                 if self.count == 1:
                     self.clip2_start = tk.Entry(self.master, width=10)
@@ -85,6 +93,9 @@ class GUI(tk.Frame):
                     self.clip2_end.insert(0, '0,0')
                     self.clip2_end.grid(sticky="W", column=0, row=len(self.imported_obj) + 6, padx=len(file_name) * 12 + 90)
 
+                    self.checkbox2 = tk.Checkbutton(self.master, text='Inactive', variable=self.audio2, onvalue=False, offvalue=True)
+                    self.checkbox2.grid(sticky="W", column=0, row=len(self.imported_obj) + 6, padx=len(file_name) * 12 + 150)
+
                 if self.count == 2:
                     self.clip3_start = tk.Entry(self.master, width=10)
                     self.clip3_start.insert(0, '0,0')
@@ -94,6 +105,9 @@ class GUI(tk.Frame):
                     self.clip3_end.insert(0, '0,0')
                     self.clip3_end.grid(sticky="W", column=0, row=len(self.imported_obj) + 6, padx=len(file_name) * 12 + 90)
 
+                    self.checkbox3 = tk.Checkbutton(self.master, text='Inactive', variable=self.audio3, onvalue=False, offvalue=True)
+                    self.checkbox3.grid(sticky="W", column=0, row=len(self.imported_obj) + 6, padx=len(file_name) * 12 + 150)
+
                 if self.count == 3:
                     self.clip4_start = tk.Entry(self.master, width=10)
                     self.clip4_start.insert(0, '0,0')
@@ -102,6 +116,9 @@ class GUI(tk.Frame):
                     self.clip4_end = tk.Entry(self.master, width=10)
                     self.clip4_end.insert(0, '0,0')
                     self.clip4_end.grid(sticky="W", column=0, row=len(self.imported_obj) + 6, padx=len(file_name) * 12 + 90)
+
+                    self.checkbox4 = tk.Checkbutton(self.master, text='Inactive', variable=self.audio4, onvalue=False, offvalue=True)
+                    self.checkbox4.grid(sticky="W", column=0, row=len(self.imported_obj) + 6, padx=len(file_name) * 12 + 150)
 
                 self.count = self.count + 1
 
@@ -135,8 +152,8 @@ class GUI(tk.Frame):
         print(opacity)
 
         if self.count == 2:
-            clip1 = VideoFileClip(self.imported_obj[0])
-            clip2 = VideoFileClip(self.imported_obj[1])
+            clip1 = VideoFileClip(self.imported_obj[0], audio=self.audio1.get())
+            clip2 = VideoFileClip(self.imported_obj[1], audio=self.audio2.get())
 
             clip1_s, clip1_e = self.clip1_start.get(), self.clip1_end.get()
             clip2_s, clip2_e = self.clip2_start.get(), self.clip2_end.get()
@@ -152,10 +169,10 @@ class GUI(tk.Frame):
             self.merged = clips_array([[self.trim(clip1, clip1_s, clip1_e), self.trim(clip2, clip2_s, clip2_e)]])
 
         elif self.count == 4:
-            clip1 = VideoFileClip(self.imported_obj[0])
-            clip2 = VideoFileClip(self.imported_obj[1])
-            clip3 = VideoFileClip(self.imported_obj[2])
-            clip4 = VideoFileClip(self.imported_obj[3])
+            clip1 = VideoFileClip(self.imported_obj[0], audio=self.audio1.get())
+            clip2 = VideoFileClip(self.imported_obj[1], audio=self.audio2.get())
+            clip3 = VideoFileClip(self.imported_obj[2], audio=self.audio3.get())
+            clip4 = VideoFileClip(self.imported_obj[3], audio=self.audio4.get())
 
             clip1_s, clip1_e = self.clip1_start.get(), self.clip1_end.get()
             clip2_s, clip2_e = self.clip2_start.get(), self.clip2_end.get()
